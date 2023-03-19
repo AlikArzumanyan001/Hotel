@@ -1,0 +1,63 @@
+@import '../../assets/style/veriables.scss';
+
+.footer-cont{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: $colorBlack;
+    .names{
+        text-align: center;
+        margin-bottom: 20px;
+        .find{
+            font-size: 18px;
+            color: $colorWhite;
+        }
+    }
+    .icons-mysite{
+        text-align: center;
+        color: $colorWhite;
+        .icon-facebook-square{
+            
+            color: $colorWhite;
+            &:hover{
+                opacity: 0.60;
+            }
+        }
+        .icon-instagram{
+            color: $colorWhite;
+            &:hover{
+                opacity: 0.60;
+            }
+        }
+        .icon-snapchat{
+            color: $colorWhite;
+            &:hover{
+                opacity: 0.60;
+            }
+        }
+        .icon-pinterest{
+            color: $colorWhite;
+            &:hover{
+                opacity: 0.60;
+            }
+        }
+        .icon-twitter{
+            color: $colorWhite;
+            &:hover{
+                opacity: 0.60;
+            }
+        }
+        .icon-linkedin{
+            color: $colorWhite;
+            &:hover{
+                opacity: 0.60;
+            }
+        }
+    }
+    .w3schools{
+        margin-top: 20px;
+        text-align: center;
+        .w3css{
+            color: $colorWhite;
+        }
+    }
+}

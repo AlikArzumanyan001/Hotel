@@ -1,0 +1,91 @@
+@import '../../assets/style/veriables.scss';
+
+.hotels-container{
+    margin-bottom: 40px;
+    .hotel-cont-name{
+        margin-left: 10px;
+        .name{
+            font-size: 22px;
+        }
+        .text{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    .img-container{
+        width: 100%;
+        display: flex;
+        .img-Cinque-Terre{
+            width: 50%;
+            margin-left: 10px;
+        }
+    }
+    
+    .img-country{
+        display: flex;
+        flex-wrap: wrap;
+        width: 53%;
+        margin-left: 10px;
+        .country{
+            padding:0 10px ;
+            width: 50%;
+            .imges-count{
+                width: 100%;
+            }
+            
+        }
+    }
+    .email-cont{
+        background-color: $colorBlack;
+        margin-top: 40px;
+        width: 100%;
+        opacity: 0.60;
+        &:hover{
+            opacity: 1;
+        }
+        .email-container{
+            padding-top: 25px;
+            margin-left: 10px;
+            .name-email-cont{
+                margin-top: 20px;
+                color: $colorWhite;
+                font-size: 30px;
+            }
+            .text-email-cont{
+                margin-top: 20px;
+                color: $colorWhite;
+            }
+        }
+        .email{
+            margin-top: 20px;
+            margin-left: 10px;
+            .email-name{
+                color: $colorWhite;
+                margin-bottom: 5px;
+            }
+            .input-email{
+                width: 99%;
+                padding: 10px;
+                font-size: 16px;
+                border: none;
+                margin-bottom: 15px;
+            }
+            .btn-email{
+                font-size: 15px;
+                background-color: $colorRed;
+                color: $colorWhite;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                margin-bottom: 30px;
+                &:hover{
+                    color: $colorBlack;
+                    background-color: $colorHoverHeaderBtn;
+                }
+            }
+            .eror{
+                color: red;
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+@import '../../assets/style/veriables.scss';
+
+.Rooms{
+    width: 100%;
+    
+    .name{
+        font-size: 22px;
+        font-family: Verdana,sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .info{
+        margin-bottom: 15px;
+        .text{
+            font-size: 15px;
+            margin-left: 10px;
+            font-family: Verdana,sans-serif;
+        }
+    }
+}
+.inputs-container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    .inputs{
+        width: 25%;
+        margin-right: 10px;
+        .icons{
+            margin-left: 10px;
+            display: flex;
+            .icon-name{
+                margin-left: 5px;
+            }
+        }
+        .input-cont{
+            margin-left: 10px;
+            margin-top: 5px;
+            .input{
+                font-size: 16px;
+                width: 100%;
+                border: 1px solid #ccc;
+                padding: 8px;
+            }
+            .eror{
+                margin: 5px;
+                color: red;
+            }
+        }
+    }
+    .Hotel-adults{
+        display: flex;
+        width: 35%;
+        .icon-input-cont{
+            width: 100%;
+            margin-right: 15px;
+            .icons{
+                display: flex;
+                .icon-name{
+                    margin-left: 5px;
+                }
+            }
+            .input-cont{
+                margin-top: 5px;
+                .input{
+                    font-size: 16px;
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    padding: 8px;
+                }
+                
+            }
+        }
+    }
+    .search-btn-cont{
+        width: 15%;
+        margin-right: 10px;
+        .icons{
+            display: flex;
+            .icon-name{
+                margin-left: 5px;
+            }
+        }
+        .btn-cont{
+            margin-top: 5px;
+            background-color: $colorBlack;
+            text-align: center;
+            padding: 8px 15px;
+            cursor: pointer;
+            .btn{
+                font-size: 15px;
+                border: none;
+                background-color: $colorBlack;
+                color: $colorWhite;
+                cursor: pointer;
+            }    
+        }
+          
+    }
+}    
+.Rooms-container{
+    width: 100%;
+    display: flex;
+}

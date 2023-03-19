@@ -1,0 +1,81 @@
+@import '../../assets/style/veriables.scss';
+
+
+.about{
+    display: flex;
+    .about-container{
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 45%;
+        .name{
+            font-size: 23px;
+            margin-bottom: 20px;
+        }
+        .text{
+            font-size: 16px;
+            font-family: "Raleway", Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            line-height: 1.5;
+        }
+        .card-cont{
+            margin-top: 20px;
+            display: flex;
+            margin-right: 5px;
+        }
+    }
+    .img-map{
+        margin-left: 10px;
+        padding: 10px;
+        .map{
+            filter: grayscale(75%);
+            width: 100%;
+        }
+    }
+}
+.geolocation-cont{
+    width: 100%;
+    margin-bottom: 70px;
+    .geolocation{
+        font-size: 16px;
+        width: 33%;
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .phone{
+        font-size: 16px;
+        width: 33%;
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .email{
+        font-size: 16px;
+        width: 33%;
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+.info-panel{
+    padding: 30px 0;
+    background-color: $colorRed;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    .icon-info{
+        margin-right: 20px;
+        padding: 12px;
+        margin-left: 20px;
+        color: $colorWhite;
+        background-color: #ff5722;
+    }
+    .text{
+        padding: 10px;
+        color: $colorWhite;
+    }
+}

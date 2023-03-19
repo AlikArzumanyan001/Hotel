@@ -1,0 +1,132 @@
+@import '../../assets/style/veriables.scss';
+
+body{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+.img{
+    width: 100%;
+}
+.Hotel-name-container{
+    position: absolute;
+    bottom: 90px;
+    left: 30px;
+    width: 46.9999%;
+    .Hotel-name{
+        padding: 15px 20px;
+        display: flex;
+        width: 100%;
+        background-color: $colorRed;
+        .icon-hotel{
+            font-size: 30px;
+            color: $colorWhite;
+        }
+        .name{
+            margin-left: 20px;
+            font-weight: 400;
+            font-size: 30px;
+            color: $colorWhite;
+        }
+    }
+    .Hotel-check-in{
+        padding: 15px 20px;
+        width: 100%;
+        background-color: $colorWhite;
+        display: flex;
+        .icon-input-cont{
+            width: 50%;
+            .icons{
+                width: 100%;
+                display: flex;
+                .icon-name{
+                    font-size: 17px;
+                    margin-left: 10px;
+                }
+            }
+            .input-cont{
+                width: 100%;
+                padding: 10px 10px 10px 0px;
+                .input{
+                    font-size: 16px;
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    padding: 8px;
+                }
+                .eror{
+                    margin: 5px;
+                    color: red;
+                }
+            }
+            .input-cont2{
+                width: 100%;
+                padding: 10px 0;
+                .input{
+                    font-size: 16px;
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    padding: 8px;
+                }
+                .eror{
+                    margin: 5px;
+                    color: red;
+                }
+            }
+        }
+    }
+    .Hotel-adults{
+        padding: 15px 20px;
+        width: 100%;
+        background-color: $colorWhite;
+        display: flex;
+        .icon-input-cont{
+            width: 50%;
+            .icons{
+                width: 100%;
+                display: flex;
+                .icon-name{
+                    font-size: 17px;
+                    margin-left: 10px;
+                }
+            }
+            .input-cont{
+                width: 100%;
+                padding: 10px 10px 10px 0px;
+                .input{
+                    font-size: 16px;
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    padding: 8px;
+                }
+            }
+            .input-cont2{
+                width: 100%;
+                padding: 10px 0;
+                .input{
+                    font-size: 16px;
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    padding: 8px;
+                }
+            }
+        }    
+    }
+    .search-btn-cont{
+        padding: 15px 20px;
+        width: 100%;
+        background-color: $colorWhite;
+        .btn-cont{
+            .btn{
+                padding: 10px 15px;
+                font-family: Verdana,sans-serif;
+                color: $colorWhite;
+                border: none;
+                font-size: 14px;
+                background-color: $colorGray;
+                cursor: pointer;
+                .icon-search{
+                    font-size: 17px;
+                    padding: 10px 10px 10px 0px;
+                }
+            }
+        }
+    }
+}

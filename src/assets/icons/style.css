@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?cvrug5');
+  src:  url('fonts/icomoon.eot?cvrug5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?cvrug5') format('truetype'),
+    url('fonts/icomoon.woff?cvrug5') format('woff'),
+    url('fonts/icomoon.svg?cvrug5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin:before {
+  content: "\e900";
+}
+.icon-pinterest:before {
+  content: "\e901";
+}
+.icon-info:before {
+  content: "\e902";
+}
+.icon-glass:before {
+  content: "\f000";
+}
+.icon-search:before {
+  content: "\f002";
+}
+.icon-facebook-square:before {
+  content: "\f082";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-credit-card:before {
+  content: "\f09d";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-cutlery:before {
+  content: "\f0f5";
+}
+.icon-calendar-o:before {
+  content: "\f133";
+}
+.icon-male:before {
+  content: "\f183";
+}
+.icon-child:before {
+  content: "\f1ae";
+}
+.icon-wifi:before {
+  content: "\f1eb";
+}
+.icon-cc-mastercard:before {
+  content: "\f1f1";
+}
+.icon-cc-amex:before {
+  content: "\f1f3";
+}
+.icon-cc-paypal:before {
+  content: "\f1f4";
+}
+.icon-bed:before {
+  content: "\f236";
+}
+.icon-hotel:before {
+  content: "\f236";
+}
+.icon-television:before {
+  content: "\f26c";
+}
+.icon-tv:before {
+  content: "\f26c";
+}
+.icon-snapchat:before {
+  content: "\f2ab";
+}
+.icon-bath:before {
+  content: "\f2cd";
+}
+.icon-bathtub:before {
+  content: "\f2cd";
+}
+.icon-s15:before {
+  content: "\f2cd";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
